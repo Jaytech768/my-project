@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future School</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header{
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav{
+            margin-top: 10px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        .container{
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        h2, h3{
+            margin-top: 20px;
+            color: #003366;
+        }
+
+        p, li{
+            margin-top: 10px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea{
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0055aa;
+        }
+
+        footer{
+            text-align: center;
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media(max-width: 768px){
+
+            .container{
+                width: 95%;
+            }
+
+            nav a{
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bright Future School</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+
+    <div class="container" id="home">
+
+        <img src="school.jpg" alt="School Image">
+
+        <h2>Welcome to Bright Future School</h2>
+
+        <p>
+            Bright Future School provides quality education and helps students
+            become successful in life.
+        </p>
+
+        <h3>Why Choose Us?</h3>
+
+        <ul>
+            <li>Qualified Teachers</li>
+            <li>Modern Classrooms</li>
+            <li>Sports Activities</li>
+            <li>Computer Laboratories</li>
+        </ul>
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="container" id="about">
+
+        <h2>About Our School</h2>
+
+        <p>
+            Bright Future School was established to provide quality education
+            and build future leaders.
+        </p>
+
+        <h3>Our Mission</h3>
+
+        <p>
+            To inspire students through discipline, creativity,
+            leadership, and learning.
+        </p>
+
+        <h3>Departments</h3>
+
+        <ol>
+            <li>Science Department</li>
+            <li>Arts Department</li>
+            <li>Commercial Department</li>
+        </ol>
+
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="container" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Message</label>
+            <textarea rows="5" placeholder="Write your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bright Future School</p>
+    </footer>
+
+</body>
+</html>
